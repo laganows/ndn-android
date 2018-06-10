@@ -26,4 +26,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     compile 'net.named-data:jndn:0.17'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
+    compileOnly "org.projectlombok:lombok:1.18.0"
+    annotationProcessor 'org.projectlombok:lombok:1.18.0'
 }
